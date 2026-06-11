@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/salaries")
+@CrossOrigin("*")
 public class SalaryRecordController {
 
     private final SalaryRecordService service;

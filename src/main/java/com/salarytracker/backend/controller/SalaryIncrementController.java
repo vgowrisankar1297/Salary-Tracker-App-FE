@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/increments")
+@CrossOrigin("*")
 public class SalaryIncrementController {
 
     private final SalaryIncrementService service;
