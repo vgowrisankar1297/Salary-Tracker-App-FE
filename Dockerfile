@@ -12,7 +12,7 @@ RUN npm ci --silent
 COPY . .
 
 # Setup optional build arguments for API URLs (default to localhost API)
-ARG REACT_APP_API_BASE_URL=http://localhost:8080/api
+ARG REACT_APP_API_BASE_URL=http://15.207.108.238:8080/api
 ENV REACT_APP_API_BASE_URL=$REACT_APP_API_BASE_URL
 
 # Build the app
